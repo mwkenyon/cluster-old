@@ -89,4 +89,3 @@ spec:
         server: ${SCALE_IP}
         path: ${MEDIA_NFS}
         mountPath: "${MEDIA_LOCAL}"
-        
