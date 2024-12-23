@@ -84,9 +84,8 @@ spec:
               enabled: true
               cacheCapacity: 10Gi
       media:
-        enabled: false
+        enabled: true
         type: nfs
         server: ${SCALE_IP}
         path: ${MEDIA_NFS}
         mountPath: "${MEDIA_LOCAL}"
-        
