@@ -1,62 +1,42 @@
-#ENC[AES256_GCM,data:NcIR2tY3lAXzi2+0SijqbC8CoE648iMw/HZUhOUs0iE+xnv+/2YPmIjSAUvxqqupim0akuUVvCSjw3QvMcHMzQk=,iv:CCo+5w4KYGSSmVBJKIs+eMN6bNriCIKf+AOGdX/hHTo=,tag:E7mcY8N8jUDOcJnucytpxA==,type:comment]
-#ENC[AES256_GCM,data:YH3pE1wN04YBYwJdRCxrBHAw8mWFHaeGaWh4JuCzgbN7XPITMUGJqs8NtFk=,iv:evYrfKXuAU0BkP0hm3NFft1ZprXEp+piOxYp7ZSoSY8=,tag:o62lbAaHhmvLJICyYKjXSg==,type:comment]
-VIP: ENC[AES256_GCM,data:CrlxEqF3zuyGdsPtYA==,iv:+Kvotqc4eLOFDHkXz7oKQy9OLBdHx9KPLNC/Lg2l3AE=,tag:aGxhu7JRN9NNMuu2WNBAmQ==,type:str]
-#ENC[AES256_GCM,data:PT8gTZbAbJFQBHmAjKm80Cikz0zs5ftH0AT4,iv:wNrTm20VPUJwtW68Z6yuSzQ3rk8RMNsLvFo2ijgQ4jo=,tag:ZgDQC3r5t3o0FIIbe35eUg==,type:comment]
-#ENC[AES256_GCM,data:NjfnQ31jZEyI2Sr9CtVvI9ZPySxVLSGwp5JIPklrN0nsLdYQtdMXlI0OA2FxGyyi34WkErWG1uL8DczlON9yAOChis8wSaOSGEw9lVqcTfOvF8JDroBxg2Q=,iv:wFJo3v4yOTxqebA5kNoDenv7D/xu/19wQ/Gkgw5171M=,tag:/0/O4/8kqOYcdPJkqDTkbA==,type:comment]
-MASTER1IP: ENC[AES256_GCM,data:XMlm5gZVzqbquYXB0A==,iv:mJGaJjkETaDT40MXUxPnVEBK1JQhU4TbaW4x4ZpY3v0=,tag:C+IDvnvD7wBP0AYXmL30/g==,type:str]
-#ENC[AES256_GCM,data:lNfKy/evkTiCNyzXVAkMArv28HEnMwoN17Iv/OmZYTlfpg==,iv:wwTFwC76QNsaM4Mcg1BjbCwItOvxCJ88vongEzgUn3U=,tag:NzNNMO1NRFGArZg39qbkRA==,type:comment]
-GATEWAY: ENC[AES256_GCM,data:7EGvbVQ0AK1kzJcgsw==,iv:jXxSaSLWZ5DUFSmhaP0eNv0DPSP7dU2VG/vqzJ6+0pE=,tag:7F0TAtVr/jkhQNysyqvkog==,type:str]
-#ENC[AES256_GCM,data:wEfW8Z5N8ivjPwBB6aEYtuN5WrQxbccWAuPgqPKo5FopU9ccAaJjRDEbUe29MHQ=,iv:k77EwRf+Wtw7mg2yipb0NtJeEHigYKEyUIyUNXk/HvE=,tag:M1IpzQrwwsvcFOUOxPcWHQ==,type:comment]
-METALLB_RANGE: ENC[AES256_GCM,data:aK1kQFhkt357lSS6Fg+AnhOB2ppMdXdJ,iv:5RKuo6+fRleqaJxp66ketFBoNVVTOK6IPWkSHGvagk0=,tag:eQC0KGGOoQKSKrq3CiY3bQ==,type:str]
-#ENC[AES256_GCM,data:HKE2rLWuUHouDHqehMaNUDnFOqZNGzuP8X18ESX0gjuUB25ewXJyptLpRZHbb/z/+By72PmIWCRD34qOXnd5DNndO75uhwO4iY30RFBys0TsPQ==,iv:2bZ6uTQ09bdSlXvDXaxRq4wikn3f9V3ywpr2rRQqhO0=,tag:4S+dHaKRbNwKzbEjmAiatA==,type:comment]
-TRAEFIK_IP: ENC[AES256_GCM,data:0kgYIW5oPAQYU4M=,iv:oQxE8q6E+HJTjuVddtx540LbrG5J0CUEG40epE5jtYA=,tag:adY1MTviiZ19b/MyqN9pjA==,type:str]
-#ENC[AES256_GCM,data:7itqIR5BpxVPoVKIZZ+Ins2QrTFL8fDCKxKh8p7Sz20a,iv:XKRMs/0LbgjfrHmb3Xarw5DNdkn7JXgrbPwFvWxZtFM=,tag:VylV3UamAS8SnKzrOrfnEg==,type:comment]
-BLOCKY_IP: ENC[AES256_GCM,data:BBce2aXaNGI3gfs=,iv:ia4OQvb0wj+yk4KqS99Q5Wz5pdL2NQ+O7NSJJF1yRT8=,tag:Ed/igcR8V4NFN5v7kONNrA==,type:str]
-#ENC[AES256_GCM,data:CJLDYXvL9obwx6oDsMTyNh95gnENClezIpkq0dfhSSgHElclAXeFbGn7TSy2TaLtkbIpOcGxtOW2GI6xHp53N+fGuVm4XZenkAbdb37BWn0=,iv:1NWEv8Xf45SEf/hahyZ2kEvCMeHNq6RGYo8YZxzcuAc=,tag:P/sE1xkAvyYBdHxm6bihZA==,type:comment]
-DASHBOARD_IP: ENC[AES256_GCM,data:pKthnN3GFLzEONYd,iv:XjsFAOTnviHcjTmkW1g2YU6dDBh8P0wRBuNpDa9n5dE=,tag:VNEIy3J/ZsioYmoDc1utgg==,type:str]
-#ENC[AES256_GCM,data:Jhf6StFa6i1kUdUJzj7aaGmtYnkv3MVwXzlKEnSAmTZrGnBWPrxJhw2NAmjjNAPD0zp8MDYtx1XB+BBuzgQYSArHnG0fpZ8V+/utchrmEmUwckcyRxYa,iv:OcoZGEh2eClhYoNomeiVeP3Nvx74fMcsKPbCPz5dubg=,tag:xhShmUSsQSeHTxVzEHPlQA==,type:comment]
-#ENC[AES256_GCM,data:WiYfyurJPrtECTG7zwr6v2c08Wa1tEdTG/MGB+PoxvXUDWWyiGZJ0jGkcOON4IBx95sps5yehf7bhOqwMvQcZibp522RldXAgTuR/ggILTnQL3wsWLis1fGdBeUiSsJzVw4mRKTvZt9VqhK/Cq8vsX82VUkZOkmd5VmvDQ==,iv:ErBWQNoNYZnV8BJY+tsASAH+RsqHpJrlGAjEKAQht48=,tag:Ee/sfwTxak3ZShTNt4GNxQ==,type:comment]
-#ENC[AES256_GCM,data:YHdWrUquN82LZD0b98OcJEbm9dRzv/J5reSYaALHUXXP8rR/Sk3I4UMzY8LpOnDu9wQUINjMa2TZicvh0KbgHtQ2n/d/CpfoXQfDC5ciaRE=,iv:kRkVPRakVOONKlj4FhTYhgeNKfyLaY7MPxdj2d4zMPA=,tag:qcgBZUGl434sIOyWp/QYnw==,type:comment]
-#ENC[AES256_GCM,data:7ZIwPVWW9nXLITbLeFvAr94ql9Q2UlshGjqFUOhuFem9BrC6tOZn9ycTJIjVvcakGTFDcj0W,iv:ysqvXTC9S31uYzeoGMVaCohjSC2Shz9Y81cbmPcT5VQ=,tag:h6Piop2rakdILcj6FkE52A==,type:comment]
-DOMAIN_0: ENC[AES256_GCM,data:zdx09FtHgiDC4Hhg,iv:bUbsld3VniiCElT2w1vCxxoOInlsKoenUIJbmcAJxEk=,tag:SbZvUHwARgTynawkFnhggw==,type:str]
-DOMAIN_0_EMAIL: ENC[AES256_GCM,data:sY5tSMJiIn46JZP6N89yUmuyjw==,iv:mEZKjSFILLy+yvBQSx05yy9B7P6FoTJsEB7ysmQR5nE=,tag:BVd+txmVRDLeiWlhLieqvA==,type:str]
-DOMAIN_0_CLOUDFLARE_TOKEN: ENC[AES256_GCM,data:4UuvhfSNr1kv30/BWNc2ogDgbH0SOyRlTfPuHIgODO+FSBW0RKqrwA==,iv:o32nUn4iLo/GNce/y1chQ9s+8gKKDLhLeKcr76yw+9E=,tag:WodwWBE1hRw50K5bUNoeKw==,type:str]
-#ENC[AES256_GCM,data:RNQpI+I386tsvZKHpco=,iv:L1ANnNy+gm1wQx8Fq3AdIvH64oR+IluApdHA+pL2on0=,tag:MUu18GgY0P8CreErQJjZng==,type:comment]
-S3_URL_RESTIC: ENC[AES256_GCM,data:fpDMdCW3S4YI6ulIDIchzQ9SH8g0Tpn2vCNwdTVmGMEHLFcxq9nG44yAC0tEi86zNtkS3a48byflcL1InlyKpts=,iv:xPz5yE+IcLVdFAu/qkHYy9aRTFIC98/NFC7NNIjvRtk=,tag:SPskhHxGucre+CrSBjoiGQ==,type:str]
-S3_BUCKET_RESTIC: ENC[AES256_GCM,data:cmFDfuHG,iv:zEgedVIh8MLEXXjBcF6m2uUfe7BumCaspljgQfTc6Iw=,tag:n3Vst8Ab3VIQ5f7JaLeaqg==,type:str]
-S3_ID_RESTIC: ENC[AES256_GCM,data:NCIlRHc8KaiPv79JBisi2V16Intg6au974GBs1TIc28=,iv:VC0DkkVathVh1GWg0jPANu5eviUXQaNrX9UWTyTOXSI=,tag:jcyWO11HWT5Viv6RIrZ97w==,type:str]
-S3_KEY_RESTIC: ENC[AES256_GCM,data:O4xZqZ4n4XiMcU2Neu4E474O0xWzlmwizZeerlDbapm1Ef2Lu7uLp/RVWO6jMs4cTTkN/hUzqKwLOWoOR8HpkQ==,iv:m/I+edNMxPxR6lUto6pGtduiV4kcrd3oVcjHs2qOdVU=,tag:I2XI0KPILNUshg39HM/Uew==,type:str]
-#ENC[AES256_GCM,data:Oc3+P0s+8wAbQRanNW2zRZ/QkfiC0l76kMJ0dQYIgx5I80TMcW2HOTjoV4Lq0KRt6odkx1AP44c=,iv:40Fl6Grykwc6VmjtpeNSiLo4zHONNHobDOEIYMPPxVA=,tag:d9mcNjtB8EZMhakWGszQiw==,type:comment]
-#ENC[AES256_GCM,data:8R5IVAtwbPkEEJtfCAsXZfFRLbOy0F9yJw==,iv:kmU7ScFR1wwJOd7k5GsJ1WsuzPgmO4Sq+huLH+7Q6DA=,tag:yRtLawoEuYdwT12J7O2P6A==,type:comment]
-#ENC[AES256_GCM,data:qId/dIesE8AzffJvQqEOwtEDqAeUfUwPrqw4E24Z+k5SFXsGgKmEm+PeWvLFqlORQR1Eq45NSU+95ue4Wjypc4gdp5BwARE+/PNUm9A=,iv:BvrtgjidJpNqPsNUIbIoaT7m8K8I8KErhcHA2e5PGJI=,tag:wg/SvSy3BsBzWFcAqEoRVQ==,type:comment]
-GITHUB_REPOSITORY: ENC[AES256_GCM,data:7z5mdQppPzyqaCAKeo1JH2eKT4Nzq0zvD/GThRYR9M8MkYmQG1e/HI4=,iv:d7gNLxmmkT6QgPY8CMpL+eHCKZQGvbgkBLZth+hs6Ao=,tag:d/4ePx0L9zwJkyo4wC4gzw==,type:str]
-#ENC[AES256_GCM,data:x89wxmRrR2A1WWH1BPjf7TK4U3e2Nxl58afiNorFj+YgZKI/p1VdoSM7+Ss040II+Mr5w8f0tjanKQDuoUiaIFVs/POrRTs=,iv:zt3bbt3AUAHo2eTHy5zhXmnn8bCSNY6BJIQafwea2W4=,tag:FZ/SHRjWKUIKsMRxnze3iQ==,type:comment]
-#ENC[AES256_GCM,data:ry50bDvu7glGEyquJIBpYwl9O2+waQ3zhu2iwD28xPXBZNYrcS8HtdR+vFKj7tMHo6AFpjJl,iv:7Q4VXMXZa9V5gJdfonvqIDKYII1OwvE34Ybl/GIpBQU=,tag:/1KlI8HAnsdWUexXxdpnkw==,type:comment]
-#ENC[AES256_GCM,data:z2PHpdlfZc1YZRZ2l0NbAk2JzohNkS8HKGfSn7xOyqBkG2E=,iv:rc0xFYzxGVZx5zZjgnXryBBEhuF2C3fkl05yMWeTkUw=,tag:3Qgktu1pXH2JRlfSbyQaAw==,type:comment]
-#ENC[AES256_GCM,data:pBrdJ1+fzpw6YjxvLcVh+Ziy+8+rO1gGJ3MfoD8Gc0/ZH2vJ/uHA,iv:MzcujhESlUEAm+yVuV5v2BD8YDyTIJyeYrZ/MEobaJU=,tag:AbZ2IPi8q48GuWmHKQH1Ng==,type:comment]
-SCALE_IP: ENC[AES256_GCM,data:aR0oUv72k5k99ysgHg==,iv:tQrwGml1uiIjlEbu7IVrQQlnPjy7TZDzhkVmJqWBVgk=,tag:OhdTskZ+D2E6UtlmavjKQg==,type:str]
-MEDIA_NFS: ENC[AES256_GCM,data:1YX9H1j+Vk1dOVGVsl6jAeA+xfCe4NjIA+CI,iv:7r86uby3hLh7kjxqUZj9u9s+4KefFvzE+Wy2epeKug8=,tag:zjBotCqH5ZIgh3wcVULX1w==,type:str]
-MEDIA_LOCAL: ENC[AES256_GCM,data:oayy6tIz,iv:EZ/ZcC0+n+zTJnCJxalejSVd0Qba3w4Xn/DfUJMUfZg=,tag:JP09szTrcUet/Fd7HF/dxQ==,type:str]
-#ENC[AES256_GCM,data:U+Dje2RIGXeFNb/xwaM=,iv:VZlaqDlRvemEVIJV5Isac/9xn7oJuXbSL0FLOnmC4cQ=,tag:AtiAJ87xKlTvZlW9PKXiBA==,type:comment]
-PODNET: ENC[AES256_GCM,data:8AlJYxBChWG6T1nhEw==,iv:L/2O23JZLVJ3HhdapWJpj8sWIMc7B7J6HMEoV/sm7AE=,tag:RoePP9dd6SF2a9Ze0QYYcA==,type:str]
-SVCNET: ENC[AES256_GCM,data:vw0QkJYuI3iBYripyg==,iv:hizcU0BoKc261xAgZFVrUJqvOMEuuE+9o9/r2sn1WrI=,tag:lgVjIYp/uDfVDj9WK847KA==,type:str]
-sops:
-    shamir_threshold: 3
-    kms: []
-    gcp_kms: []
-    azure_kv: []
-    hc_vault: []
-    age:
-        - recipient: age1dh500hvzwf3pzyk3hmye4580nn8dme6tu5mtjag5kr45ad5cw3jq04uw5a
-          enc: |
-            -----BEGIN AGE ENCRYPTED FILE-----
-            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBiajJHeHQrZGxyWXJrYzhx
-            Wjhhb3Y2MGdqUHNtZUtweHVLSExsaUNFaWdvCkNqNzZ5T2tCeEVyZEg0V1ZtWDU0
-            WEJnM1c5SGJlaFRpV1FrREFQcVo5d28KLS0tIHJnbnFpcG9FU2xxSW1sWUF6eWtQ
-            a2dhZk14MGVEY0M3QlBIUzNKS2p3RUUKJcFzPzQWJ2ihIHbbYWora+IFbDym3C2A
-            WnRocXseYxoKzwFcs6L5b/BZuF4KN7Tb08puXPDZn9Vbr9etpfGc7w==
-            -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2024-12-23T17:40:25Z"
-    mac: ENC[AES256_GCM,data:6Id2eEX5TJZ43LxuJRRZzoLgW6oralbZrKOAdTVxDMCfUqT1ElR0NCeErXqFIIoWvDbFwgmLO3uy4kZ+juTj01mQQ9inENYAVcZwQECWNYwg9hb3ntUMUfoSfL0uRtsIBotd18yVpery+Q3RtKCvrCbgmTVK3b0apKlJg4c3SaQ=,iv:iKrtJ84JpZGssq4Izs1eqyvquKhPUBGtYO9NyGZ9YcE=,tag:wzW0bcBnWZVWEmdc2R2Mzg==,type:str]
-    pgp: []
-    version: 3.9.1
+## The Following are required by ClusterTool and CANNOT be removed
+# Ensure VIP is different from all master IPs
+VIP: 192.168.1.191
+## Defines the MasterNode IP
+# Please be aware, we only support x86_64 for the first node, ARM will NOT work by default
+MASTER1IP: 192.168.1.192
+# Defines the gateway for all nodes
+GATEWAY: 192.168.1.254
+# Defines the ip range metallb is allowed to use
+METALLB_RANGE: 192.168.1.2-192.168.1.55
+# IP Traefik will use for externally exposing ingress-resources (NOT its dashboard)
+TRAEFIK_IP: 192.168.1.2
+# IP Blocky DNS will be exposed on
+BLOCKY_IP: 192.168.1.3
+# Sets the Kubernetes Dashboard IP. Has to be within METALLB_RANGE and not in use
+DASHBOARD_IP: 192.168.1.55
+## Configures Traefik, ClusterIssuer and Blocky for said domain, using these credentials
+# domain is the base/highest level of your domain, so without subdomain, example: truecharts.org, not somesite.truecharts.org
+# To disable, please see the comments in their respective helm-values.yaml files!
+# When disabled, please use placeholder values instead.
+DOMAIN_0: kenkenlab.com
+DOMAIN_0_EMAIL: mwkenyon7@gmail.com
+DOMAIN_0_CLOUDFLARE_TOKEN: pgmLV_0Ql3FRSIoZxdPbHSlXw8eI0rh0x-XUlK71
+# S3 cloudflare
+S3_URL_RESTIC: https://5277e24d105d28ae23aa1f107454847b.r2.cloudflarestorage.com
+S3_BUCKET_RESTIC: restic
+S3_ID_RESTIC: eae74cf99503f486d1ce70a720ca8abe
+S3_KEY_RESTIC: c2ff0d442efa07dc98ed4aaee1ea769bee790637e0592f80e9fdadf76dab3981
+# Used to automatically generate a sshkey-pair for FluxCD
+# Has to start with ssh://
+# Please make sure to NOT contain any special characters in the URL except "-"
+GITHUB_REPOSITORY: ssh://git@github.com:mwkenyon/cluster.git
+## Uncomment and adapt to automatically setup your dockerhub credentials
+## This should prevent much of the potential ratelimits
+# DOCKERHUB_USER: dockerhub-username
+# DOCKERHUB_PASSWORD: dockerhub-password
+SCALE_IP: 192.168.1.229
+MEDIA_NFS: /mnt/KenStore/KenRaid/Media
+MEDIA_LOCAL: /media
+## DO NOT ALTER
+PODNET: 172.16.0.0/16
+SVCNET: 172.17.0.0/16
