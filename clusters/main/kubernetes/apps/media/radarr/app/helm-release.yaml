@@ -84,7 +84,7 @@ spec:
               enabled: true
               cacheCapacity: 10Gi
       media:
-        enabled: true
+        enabled: false
         type: nfs
         server: ${SCALE_IP}
         path: ${MEDIA_NFS}
