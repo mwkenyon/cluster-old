@@ -58,8 +58,8 @@ spec:
         enabled: true
         integrations:
           homepage:
-            enabled: false
-            group: "Media"
+            enabled: true
+            group: "Media Downloads"
             widget:
               custom:
                 url: http://sabnzbd.sabnzbd.svc.cluster.local:10097
