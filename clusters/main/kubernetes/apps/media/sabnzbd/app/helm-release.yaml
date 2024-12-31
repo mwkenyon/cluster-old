@@ -53,6 +53,27 @@ spec:
               env:
                 SABNZBD__HOST_WHITELIST_ENTRIES: "sabd.${DOMAIN_0}"
                 SABNZBD__PORT: "{{ .Values.service.main.ports.main.port }}"
+    ingress:
+      main:
+        enabled: true
+        integrations:
+          homepage:
+            enabled: true
+            name: sabnzbd
+            group: "Media Downloads"
+            widget:
+              custom:
+                key: "${SAB_KEY}"
+          traefik:
+            enabled: true
+          certManager:
+            enabled: true
+            certificateIssuer: domain-0-le-prod
+        hosts:
+          - host: sabz.${DOMAIN_0}
+            paths:
+              - path: /
+                pathType: Prefix
     persistence:
       config:
         volsync:
