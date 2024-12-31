@@ -8,3 +8,4 @@ resources:
   - sabnzbd/ks.yaml
   - flaresolverr/ks.yaml
   - prowlarr/ks.yaml
+  - readarr/ks.yaml
