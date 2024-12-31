@@ -61,13 +61,6 @@ spec:
       main:
         enabled: true
         integrations:
-          homepage:
-            enabled: true
-            name: Prowlarr
-            group: "Media Manager"
-            widget:
-              custom:
-                key: "${PROWLARR_KEY}"
           traefik:
             enabled: true
           certManager:
