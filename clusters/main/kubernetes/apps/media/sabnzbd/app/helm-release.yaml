@@ -93,5 +93,5 @@ spec:
         enabled: true
         type: nfs
         server: ${SCALE_IP}
-        path: ${DOWNLOADS_NFS}
-        mountPath: "${DOWNLOADS_LOCAL}"
+        path: ${MEDIA_NFS}
+        mountPath: "${MEDIA_LOCAL}"
