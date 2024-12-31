@@ -46,10 +46,10 @@ spec:
           containers:
             main:
               env:
-                readarr__SERVER__PORT: "{{ .Values.service.main.ports.main.port }}"
-                readarr__AUTH__METHOD: External
-                readarr__AUTH__REQUIRED: DisabledForLocalAddresses
-                readarr__APP__THEME: dark
+                READARR__SERVER__PORT: "{{ .Values.service.main.ports.main.port }}"
+                READARR__AUTH__METHOD: External
+                READARR__AUTH__REQUIRED: DisabledForLocalAddresses
+                READARR__APP__THEME: dark
     defaultCertificate: domain-0-wildcard
     service:
       main:
