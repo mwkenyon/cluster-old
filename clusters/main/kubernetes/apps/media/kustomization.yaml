@@ -9,3 +9,4 @@ resources:
   - flaresolverr/ks.yaml
   - prowlarr/ks.yaml
   - readarr/ks.yaml
+  - audiobookshelf/ks.yaml
