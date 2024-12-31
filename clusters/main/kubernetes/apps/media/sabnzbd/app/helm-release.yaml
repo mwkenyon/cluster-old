@@ -41,6 +41,7 @@ spec:
     defaultCertificate: domain-0-wildcard
     service:
       main:
+        type: LoadBalancer
         loadBalancerIP: 192.168.1.50
         ports:
           main:
