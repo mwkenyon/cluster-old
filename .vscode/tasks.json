@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+    {
+      "label": "Truetool Genconfig",
+      "type": "shell",
+      "command": ".\\clustertool.exe genconfig",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+        "label": "Truetool Encrypt",
+        "type": "shell",
+        "command": ".\\clustertool.exe encrypt",
+        "problemMatcher": [],
+        "group": "build"
+      },
+      {
+          "label": "Truetool Decrypt",
+          "type": "shell",
+          "command": ".\\clustertool.exe decrypt",
+          "problemMatcher": [],
+          "group": "build"
+        },
+        {
+            "label": "Flux Update Now",
+            "type": "shell",
+            "command": "flux reconcile source git cluster cluster",
+            "problemMatcher": [],
+            "group": "build"
+          }
+    ]
+  }

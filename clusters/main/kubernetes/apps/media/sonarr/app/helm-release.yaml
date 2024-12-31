@@ -61,6 +61,13 @@ spec:
       main:
         enabled: true
         integrations:
+          homepage:
+            enabled: true
+            name: Sonarr (Series)
+            group: "Media Manager"
+            widget:
+              custom:
+                key: "${SONARR_KEY}"
           traefik:
             enabled: true
           certManager:
@@ -79,9 +86,9 @@ spec:
             credentials: cloudflare
             dest:
               cacheCapacity: 10Gi
-              enabled: false
+              enabled: true
             src:
-              enabled: false
+              enabled: true
               cacheCapacity: 10Gi
       media:
         enabled: true

@@ -4,3 +4,4 @@ resources:
   - kubernetes-dashboard/ks.yaml
   - media
   - cloudflared/ks.yaml
+  - homepage/ks.yaml

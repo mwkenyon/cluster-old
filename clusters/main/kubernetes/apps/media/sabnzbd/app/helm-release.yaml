@@ -2,14 +2,14 @@
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
-  name: radarr
-  namespace: radarr
+  name: sabnzbd
+  namespace: sabnzbd
 spec:
   interval: 15m
   chart:
     spec:
-      chart: radarr
-      version: 23.12.0
+      chart: sabnzbd
+      version: 21.4.1
       sourceRef:
         kind: HelmRepository
         name: truecharts
@@ -38,36 +38,42 @@ spec:
         accessKey: "${S3_ID_RESTIC}"
         secretKey: "${S3_KEY_RESTIC}"
         encrKey: "${S3_KEY_RESTIC}"
-    securityContext:
-      readOnlyRootFilesystem: false
-    workload:
-      main:
-        podSpec:
-          containers:
-            main:
-              env:
-                RADARR__SERVER__PORT: "{{ .Values.service.main.ports.main.port }}"
-                RADARR__AUTH__METHOD: External
-                RADARR__AUTH__REQUIRED: DisabledForLocalAddresses
-                RADARR__APP__THEME: dark
     defaultCertificate: domain-0-wildcard
     service:
       main:
         type: ClusterIP
         ports:
           main:
-            port: 7878
+            port: 10097
+    workload:
+      main:
+        podSpec:
+          containers:
+            main:
+              env:
+                SABNZBD__HOST_WHITELIST_ENTRIES: "sabd.${DOMAIN_0}"
+                SABNZBD__PORT: "{{ .Values.service.main.ports.main.port }}"
     ingress:
       main:
         enabled: true
         integrations:
+          homepage:
+            enabled: false
+            group: "Media"
+            widget:
+              custom:
+                url: http://sabnzbd.sabnzbd.svc.cluster.local:10097
+                key: "${SAB_KEY}"
           traefik:
             enabled: true
+            middlewares:
+              - name: local
+                namespace: traefik
           certManager:
             enabled: true
             certificateIssuer: domain-0-le-prod
         hosts:
-          - host: radarr.${DOMAIN_0}
+          - host: sabd.${DOMAIN_0}
             paths:
               - path: /
                 pathType: Prefix
@@ -83,9 +89,9 @@ spec:
             src:
               enabled: true
               cacheCapacity: 10Gi
-      media:
+      downloads:
         enabled: true
         type: nfs
         server: ${SCALE_IP}
-        path: ${MEDIA_NFS}
-        mountPath: "${MEDIA_LOCAL}"
+        path: ${DOWNLOADS_NFS}
+        mountPath: "${DOWNLOADS_LOCAL}"

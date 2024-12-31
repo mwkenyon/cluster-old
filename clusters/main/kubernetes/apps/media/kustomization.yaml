@@ -4,3 +4,5 @@ resources:
   - sonarr/ks.yaml
   - radarr/ks.yaml
   - overseerr/ks.yaml
+  - qbittorrent/ks.yaml
+  - sabnzbd/ks.yaml
