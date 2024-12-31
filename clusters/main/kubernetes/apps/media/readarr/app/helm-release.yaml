@@ -61,13 +61,6 @@ spec:
       main:
         enabled: true
         integrations:
-          homepage:
-            enabled: false
-            name: readarr
-            group: "Media Manager"
-            widget:
-              custom:
-                key: "${READARR_KEY}"
           traefik:
             enabled: true
           certManager:
