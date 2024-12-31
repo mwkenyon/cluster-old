@@ -57,13 +57,6 @@ spec:
       main:
         enabled: true
         integrations:
-          homepage:
-            enabled: true
-            name: sabnzbd
-            group: "Media Downloads"
-            widget:
-              custom:
-                key: "${SAB_KEY}"
           traefik:
             enabled: true
           certManager:
