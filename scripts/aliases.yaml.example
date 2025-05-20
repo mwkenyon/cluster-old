@@ -1,0 +1,12 @@
+aliases:
+  k: "kubectl"
+  f: "flux"
+  gto: "gitops"
+  ct: clustertool
+  ctv: "ct info | awk -F': ' '/Clustertool Version/ {print $2}'"
+  tcl: "talosctl"
+  utils: "./scripts/utils.sh"
+  updateScripts: "git --git-dir=./scripts/.git --work-tree=./scripts pull"
+  genAlias: "gen_alias --config ./aliases.yaml"
+  genBadges: "gen_badges --config ./badges.yaml --save ./badges.md"
+  describePods: "describe_pods"
